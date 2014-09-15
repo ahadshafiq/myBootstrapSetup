@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#main-navbar">
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -70,19 +70,19 @@
               <h2>Testimonitals. <small>This is what our customers are saying about us</small></h2>
           </div><!-- end page header -->
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-md-4">
               <blockquote>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos nulla soluta facilis voluptatum, esse placeat quia quisquam quibusdam veritatis mollitia!</p>
                 <footer>Cite Author</footer>
               </blockquote>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4">
               <blockquote>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit asperiores, iusto similique sed maiores fuga sapiente inventore temporibus labore optio.</p>
                 <footer>Cite Author</footer>
               </blockquote>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4">
               <blockquote>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi repellat alias aliquid inventore assumenda veniam doloribus eligendi quidem vel debitis?</p>
                 <footer>Cite Author</footer>
@@ -97,43 +97,43 @@
         <!-- FEATURES -->
         <section>
           <div class="page-header" id="section-features">
-              <h2>Features <small>What it's all about</small></h2>
+              <h2>Features. <small>What it's all about.</small></h2>
           </div><!-- end page header -->
           
          <div class="row">
-             <div class="col-lg-8">
+             <div class="col-sm-8">
                <h3>This is a feature title</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ipsam eum eveniet repellendus. Obcaecati, odit corporis perspiciatis iusto nihil laborum?</p>
              </div>
-             <div class="col-lg-4">
-               <img src="images/feature-1.jpg" alt="Feature image" class"img-responsive">
+             <div class="col-sm-4">
+               <img src="images/feature-1.jpg" alt="Feature image" class="img-responsive">
              </div>
           </div>
 
           <div class="row">
-             <div class="col-lg-8">
+             <div class="col-sm-8">
                <h3>This is a feature title</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis excepturi dolores aliquid voluptatem qui maiores nam iure voluptate veniam!</p>
              </div>
-             <div class="col-lg-4">
-               <img src="images/feature-2.jpg" alt="Feature image" class"img-responsive">
+             <div class="col-sm-4">
+               <img src="images/feature-2.jpg" alt="Feature image" class="img-responsive">
              </div>
           </div>
 
           <div class="row">
-             <div class="col-lg-8">
+             <div class="col-sm-8">
                <h3>This is a feature title</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis excepturi dolores aliquid voluptatem qui maiores nam iure voluptate veniam!</p>
              </div>
-             <div class="col-lg-4">
-               <img src="images/feature-3.jpg" alt="Feature image" class"img-responsive">
+             <div class="col-sm-4">
+               <img src="images/feature-3.jpg" alt="Feature image" class="img-responsive">
              </div>
           </div>  <!-- end row of features-->
 
           <hr>
 
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-sm-4">
               <div class="panel panel-default text-center">
                 <div class="panel-body">
                   <span class="glyphicon glyphicon-search"></span>
@@ -143,7 +143,7 @@
               </div>
             </div>
 
-             <div class="col-lg-4">
+             <div class="col-sm-4">
               <div class="panel panel-default text-center">
                 <div class="panel-body">
                   <span class="glyphicon glyphicon-ok"></span>
@@ -153,7 +153,7 @@
               </div>
             </div>
 
-             <div class="col-lg-4">
+             <div class="col-sm-4">
               <div class="panel panel-default text-center">
                 <div class="panel-body">
                   <span class="glyphicon glyphicon-time"></span>
@@ -323,7 +323,42 @@
             </div>
           </div>
       </section>
+
+      <!-- FOOTER -->
+    <footer>
+      <hr>
+      <div class="container text-center">
+            <h3>Subscribe now for a 30-day free trial!</h3>
+            <p>Enter your name and email below</p>
+
+            <form action="" class="form-inline" role="form">
+              <div class="form-group">
+                <label for="subscribe-name" class="sr-only">Name</label>
+                <input type="text" class="form-control" id="subscribe-name" placeholder="Name">
+              </div><!-- end form-group -->
+              <div class="form-group">
+                <label for="subscribe-email" class="sr-only">Email Address</label>
+                <input type="text" class="form-control" id="subscribe-email" placeholder="email">
+              </div><!-- end form-group -->
+
+              <button type="submut" class="btn btn-default">Subscribe</button>
+              <p><small><em>We will only use your email address for sending the download link.</em></small></p>
+            </form>
+
+            <hr>
+
+            <ul class="list-inline">
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+
+            <p>&copy; Copyright 2014.</p>
+        </div><!-- end container -->
+    </footer>
+
     </div>
+
+
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
